@@ -17,4 +17,5 @@
   "engines": {
   "node": "8.11.x"
   }
+  "heroku-postbuild" : "babel server.js -d ./dist -s"
 }
